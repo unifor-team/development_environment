@@ -2,11 +2,11 @@ package entities;
 
 public abstract class Client {
     private String name;
-    private int age;
+    private Integer age;
     private String address;
-    private boolean fidelity;
+    private Boolean fidelity;
     
-    public Client(String name, int age, String address, boolean fidelity) {
+    public Client(String name, Integer age, String address, Boolean fidelity) {
         this.name = name;
         this.age = age;
         this.address = address;
@@ -21,11 +21,11 @@ public abstract class Client {
         this.name = name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -37,11 +37,11 @@ public abstract class Client {
         this.address = address;
     }
 
-    public boolean isFidelity() {
+    public Boolean isFidelity() {
         return fidelity;
     }
 
-    public void setFidelity(boolean fidelity) {
+    public void setFidelity(Boolean fidelity) {
         this.fidelity = fidelity;
     }
 
