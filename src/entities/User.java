@@ -1,12 +1,12 @@
 package entities;
 
-public abstract class Client {
+public abstract class User {
     private String name;
     private Integer age;
     private String address;
     private Boolean fidelity;
     
-    public Client(String name, Integer age, String address, Boolean fidelity) {
+    public User(String name, Integer age, String address, Boolean fidelity) {
         this.name = name;
         this.age = age;
         this.address = address;
