@@ -4,13 +4,13 @@ public abstract class User {
     private String name;
     private Integer age;
     private String address;
-    private Boolean fidelity;
+    private Boolean isActive;
     
-    public User(String name, Integer age, String address, Boolean fidelity) {
+    public User(String name, Integer age, String address, Boolean isActive) {
         this.name = name;
         this.age = age;
         this.address = address;
-        this.fidelity = fidelity;
+        this.isActive = isActive;
     }
 
     public String getName() {
@@ -37,12 +37,12 @@ public abstract class User {
         this.address = address;
     }
 
-    public Boolean isFidelity() {
-        return fidelity;
+    public Boolean isActive() {
+        return isActive;
     }
 
-    public void setFidelity(Boolean fidelity) {
-        this.fidelity = fidelity;
+    public void isActive(Boolean isActive) {
+        this.isActive = isActive;
     }
 
 
