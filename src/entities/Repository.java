@@ -7,9 +7,9 @@ public class Repository extends User {
       String name,
       Integer age,
       String address,
-      Boolean fidelity,
+      Boolean isActive,
       String cnpj) {
-    super(name, age, address, fidelity);
+    super(name, age, address, isActive);
     this.cnpj = cnpj;
   }
 

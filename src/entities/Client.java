@@ -1,50 +1,58 @@
 package entities;
 
 public class Client extends User {
-    private Integer cnpj;
-    private String services;
-    private String nameCompany;
-    private String buy;
+    private String cpf;
+    private String contactNumber;
+    private String location;
+    private String balance;
 
-    public Client(String name, Integer age, String address, Boolean fidelity, Double quantityMoney, Integer cnpj,
-            String services, String nameCompany, String buy) {
-        super(name, age, address, fidelity);
-        this.cnpj = cnpj;
-        this.services = services;
-        this.nameCompany = nameCompany;
-        this.buy = buy;
+    public Client(
+        String name,
+        Integer age,
+        String address,
+        Boolean isActive,
+        String cpf,
+        String contactNumber,
+        String location,
+        String balance) {
+        super(name, age, address, isActive);
+        this.cpf = cpf;
+        this.contactNumber = contactNumber;
+        this.location = location;
+        this.balance = balance;
     }
 
-    public Integer getCnpj() {
-        return cnpj;
+    public String getCpf() {
+        return cpf;
     }
 
-    public void setCnpj(Integer cnpj) {
-        this.cnpj = cnpj;
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
-    public String getServices() {
-        return services;
+    public String getContactNumber() {
+        return contactNumber;
     }
 
-    public void setServices(String services) {
-        this.services = services;
+    public void setContactNumber(String contactNumber) {
+        this.contactNumber = contactNumber;
     }
 
-    public String getNameCompany() {
-        return nameCompany;
+    public String getLocation() {
+        return location;
     }
 
-    public void setNameCompany(String nameCompany) {
-        this.nameCompany = nameCompany;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
-    public String getBuy() {
-        return buy;
+    public String getBalance() {
+        return balance;
     }
 
-    public void setBuy(String buy) {
-        this.buy = buy;
+    public void setBalance(String balance) {
+        this.balance = balance;
     }
 
+    
 }
