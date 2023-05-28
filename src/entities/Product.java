@@ -2,7 +2,7 @@ package entities;
 
 import enums.Category;
 
-public abstract class Product {
+public class Product {
   private String name;
   private Integer quantity;
   private Double price;
