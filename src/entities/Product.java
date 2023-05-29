@@ -17,6 +17,7 @@ public class Product {
     this.category = category;
     this.hasPromotion = hasPromotion;
     this.discount = discount;
+    
   }
 
   public String getName() {
