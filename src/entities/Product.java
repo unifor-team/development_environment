@@ -2,7 +2,7 @@ package entities;
 
 import enums.Category;
 
-public abstract class Product {
+public class Product {
   private String name;
   private Integer quantity;
   private Double price;
@@ -17,6 +17,7 @@ public abstract class Product {
     this.category = category;
     this.hasPromotion = hasPromotion;
     this.discount = discount;
+    
   }
 
   public String getName() {
