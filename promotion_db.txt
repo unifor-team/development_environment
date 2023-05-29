@@ -1,0 +1,15 @@
+promotion_db.txt
+Name: Nescau
+Quantity: 2
+Price: 5.0
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: true
+Discount: 1.0
+
+Name: Alface
+Quantity: 2
+Price: 2.5
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: true
+Discount: 0.59
+

@@ -1,0 +1,57 @@
+noPromotion_db.txt
+Name: Leite
+Quantity: 1
+Price: 3.99
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: false
+Discount: 0.0
+
+Name: Shampoo
+Quantity: 1
+Price: 15.0
+Category: SAUDE_E_BEMESTAR
+Has promotion: false
+Discount: 0.0
+
+Name: PanoDeChão
+Quantity: 1
+Price: 20.0
+Category: UTENSILIOS_DOMESTICOS
+Has promotion: false
+Discount: 0.0
+
+Name: Coleira
+Quantity: 1
+Price: 19.99
+Category: PRODUTOS_PARA_PETS
+Has promotion: false
+Discount: 0.0
+
+Name: Cebola
+Quantity: 10
+Price: 8.39
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: false
+Discount: 0.0
+
+Name: PapelToalha
+Quantity: 3
+Price: 5.99
+Category: UTENSILIOS_DOMESTICOS
+Has promotion: false
+Discount: 0.0
+
+Name: Sorvete2L
+Quantity: 1
+Price: 19.99
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: false
+Discount: 0.0
+
+Name: BatataDoce
+Quantity: 10
+Price: 9.99
+Category: ALIMENTOS_E_BEBIDAS
+Has promotion: false
+Discount: 0.0
+

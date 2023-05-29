@@ -1,0 +1,65 @@
+clients_db.txt
+Nome: Joana
+Idade: 25
+Endereço: trab_git@gmail.com
+CPF: 152.157.745-10
+Número de contato: (85)92336-1424
+Localização: Arvoredo
+Saldo: 1213,00
+
+Nome: Amanda
+Idade: 42
+Endereço: trab_git@gmail.com
+CPF: 154.157.745-84
+Número de contato: (85)98456-1424
+Localização: JoseWalter
+Saldo: 12213,00
+
+Nome: Paulo
+Idade: 65
+Endereço: trab_git@gmail.com
+CPF: 172.157.745-80
+Número de contato: (85)96636-1424
+Localização: Aldeota
+Saldo: 6213,00
+
+Nome: Carlos
+Idade: 44
+Endereço: trab_git@gmail.com
+CPF: 199.157.745-23
+Número de contato: (85)98236-1424
+Localização: Cumbuco
+Saldo: 513,00
+
+Nome: Joao
+Idade: 75
+Endereço: trab_git@gmail.com
+CPF: 145.157.745-80
+Número de contato: (85)98236-1424
+Localização: Dende
+Saldo: 913,00
+
+Nome: Manel
+Idade: 25
+Endereço: trab_git@gmail.com
+CPF: 561.157.745-23
+Número de contato: (85)98236-1424
+Localização: Pantanal
+Saldo: 11213,00
+
+Nome: Ponte
+Idade: 35
+Endereço: trab_git@gmail.com
+CPF: 737.157.745-72
+Número de contato: (85)98236-1424
+Localização: Varjota
+Saldo: 33213,00
+
+Nome: Jorge
+Idade: 18
+Endereço: trab_git@gmail.com
+CPF: 956.157.745-12
+Número de contato: (85)98236-1424
+Localização: Passare
+Saldo: 3,00
+

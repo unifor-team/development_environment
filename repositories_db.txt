@@ -1,0 +1,11 @@
+repositories_db.txt
+Name: Victor
+Age: 33
+Address: trab_git@gmail.com
+CNPJ: 182.157.745/0001-03
+
+Name: Marcelo
+Age: 23
+Address: trab_git@gmail.com
+CNPJ: 888.157.745/0001-03
+

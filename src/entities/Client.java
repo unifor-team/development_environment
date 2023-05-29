@@ -54,5 +54,16 @@ public class Client extends User {
         this.balance = balance;
     }
 
+    public String toString() {
+        return String.format(
+            "Nome: %s\nIdade: %d\nEndereço: %s\nCPF: %s\nNúmero de contato: %s\nLocalização: %s\nSaldo: %.2f\n",
+            this.getName(),
+            this.getAge(),
+            this.getAddress(),
+            this.getCpf(),
+            this.getContactNumber(),
+            this.getLocation(),
+            this.getBalance());
+    }
     
 }

@@ -67,4 +67,13 @@ public class Product {
   public void setDiscount(Double discount) {
     this.discount = discount;
   }
+
+  public String toString() {
+    return "Name: " + this.getName() + "\n" +
+           "Quantity: " + this.getQuantity() + "\n" +
+           "Price: " + this.getPrice() + "\n" +
+           "Category: " + this.getCategory() + "\n" +
+           "Has promotion: " + this.getHasPromotion() + "\n" +
+           "Discount: " + this.getDiscount() + "\n";
+  }
 }

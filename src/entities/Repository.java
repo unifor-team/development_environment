@@ -33,4 +33,11 @@ public class Repository extends User {
   public void changeProductPromotion(Product product, Boolean hasPromotion) {
     product.setHasPromotion(hasPromotion);
   }
+
+  public String toString() {
+    return "Name: " + this.getName() + "\n" +
+           "Age: " + this.getAge() + "\n" +
+           "Address: " + this.getAddress() + "\n" +
+           "CNPJ: " + this.getCnpj() + "\n";
+  }
 }

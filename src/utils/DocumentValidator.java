@@ -8,7 +8,7 @@ public class DocumentValidator {
   private String type;
 
   String cpfRegex = "^\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}$";
-  String cnpjRegex = "^\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}$";
+  String cnpjRegex = "^\\d{3}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}$";
 
   public DocumentValidator(String document) {
     this.document = document;
