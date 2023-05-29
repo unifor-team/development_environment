@@ -12,13 +12,11 @@ import java.util.Locale;
 
 
 public class ClientReader {
-    public ClientReader () throws Exception {
+    public ClientReader (ArrayList<User> Clients, ArrayList<User> Repository) throws Exception {
         File f = new File ("user_db.txt");
         Scanner sc = new Scanner(f);
         sc.useLocale(Locale.US);
 
-        ArrayList<User> Clients = new ArrayList<User>();
-        ArrayList<User> Repository = new ArrayList<User>();
         
 
         while(sc.hasNextLine()){
@@ -26,7 +24,7 @@ public class ClientReader {
             Integer age = sc.nextInt();
             String address = sc.next();
             Boolean isActive = sc.nextBoolean();
-            String cpfOrCnpj = sc.next();
+            String cpfOrCnpj = sc   .next();
             String contactNumber = sc.next();
             String location = sc.next();
             Double balance = sc.nextDouble();
