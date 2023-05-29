@@ -4,7 +4,7 @@ public class Client extends User {
     private String cpf;
     private String contactNumber;
     private String location;
-    private String balance;
+    private Double balance;
 
     public Client(
         String name,
@@ -14,7 +14,7 @@ public class Client extends User {
         String cpf,
         String contactNumber,
         String location,
-        String balance) {
+        Double balance) {
         super(name, age, address, isActive);
         this.cpf = cpf;
         this.contactNumber = contactNumber;
@@ -46,11 +46,11 @@ public class Client extends User {
         this.location = location;
     }
 
-    public String getBalance() {
+    public Double getBalance() {
         return balance;
     }
 
-    public void setBalance(String balance) {
+    public void setBalance(Double balance) {
         this.balance = balance;
     }
 
